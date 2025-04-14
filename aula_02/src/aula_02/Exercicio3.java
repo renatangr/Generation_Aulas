@@ -12,8 +12,14 @@ public class Exercicio3 {
 		
 		Scanner leia = new Scanner(System.in);
 		
+		do {
 		System.out.print("Insira o salário bruto do colaborador: ");
 		salarioBruto = leia.nextFloat();
+		if(salarioBruto < 1) {
+			System.out.println("O colaborador não pode ter salário igual a zero ou negativo. "
+					         + "Insira o valor correto");
+		}
+		} while(salarioBruto < 1);
 		
 		System.out.print("Insira o adicional noturno do colaborador: ");
 		adicionalNoturno = leia.nextFloat();
