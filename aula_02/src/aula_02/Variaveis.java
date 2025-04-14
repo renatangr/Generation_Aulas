@@ -21,6 +21,7 @@ public class Variaveis {
 		System.out.println("Variável número dois é igual a " + num_02);
 		System.out.println("Constante PI é igual a "+PI);
 
+		leia.close();
 	}
 
 }

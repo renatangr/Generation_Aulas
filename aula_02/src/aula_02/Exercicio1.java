@@ -21,6 +21,8 @@ public class Exercicio1 {
 		
 		System.out.printf("Novo salário: %.2f", total);
 		
+		leia.close();
+		
 	}
 
 }

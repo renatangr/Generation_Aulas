@@ -44,6 +44,7 @@ public class Exercicio2 {
 		}
 		} while(nota4 < 0);
 		
+		leia.close();
 		
 		media = (nota1 + nota2 + nota3 + nota4)/ 4;
 		

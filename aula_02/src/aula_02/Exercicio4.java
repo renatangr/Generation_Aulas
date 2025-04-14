@@ -25,6 +25,8 @@ public class Exercicio4 {
 		System.out.print("Digite o quarto valor: ");
 		n4 = leia.nextFloat();
 		
+		leia.close();
+		
 		calculo = (n1 * n2) - (n3 * n4);
 		
 		System.out.printf("Diferença: %.1f", calculo);
