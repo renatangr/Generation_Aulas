@@ -65,16 +65,25 @@ Código Java → Compilador (javac) → Bytecode (.class) → JVM → Execução
 - Necessário estar no servidor para execução de apps web  
 
 
-### `public static void main`
+### O que é `public static void main(String[] args)`
 
-Esse método é o ponto de entrada de qualquer aplicação Java. Quando o programa é executado, a JVM procura por esse método para iniciar a execução.
+Esse é o **ponto de entrada** de qualquer aplicação Java. Quando você executa um programa, a JVM (Java Virtual Machine) procura por esse método para começar a execução.
 
+### Quebrando a estrutura:
+- `public`: o método pode ser acessado de qualquer lugar.
+- `static`: o método pertence à classe, e não a uma instância (não precisa criar um objeto para chamá-lo).
+- `void`: significa que o método **não retorna** nenhum valor.
+- `main`: é o nome padrão que a JVM reconhece como início da aplicação.
+- `String[] args`: parâmetro que permite passar **argumentos** pela linha de comando (por exemplo, `java MinhaClasse argumento1 argumento2`).
+
+### Exemplo:
 ```java
-public static void main(String[] args) {
-    // código aqui
+public class MinhaClasse {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
 }
 ```
-
 
 ### Commit semântico
 
