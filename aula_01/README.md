@@ -1,5 +1,8 @@
 # Aula 01 - Introdução ao Ecossistema Java 🚀
 
+## Projetos criados
+- [O `Hello, World` em Java para manter a tradição](https://github.com/renatangr/Generation_Aulas/blob/main/aula_01/src/helloworld/HelloWorld.java)
+
 ## 🧠 Tópicos abordados
 
 ### Para que o Java foi criado inicialmente
