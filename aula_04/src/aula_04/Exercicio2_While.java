@@ -7,12 +7,13 @@ public class Exercicio2_While {
 	public static void main(String[] args) {
 		
 		Scanner leia = new Scanner(System.in);
+		
 		int totalPessoas = 0, 
 		somaIdades = 0, 
 		devBackend = 0,
         mulheresFrontend = 0,
         homensMobile40Mais = 0,
-        nbFullStack30Menos = 0,
+        naoBinarioFullStack30Menos = 0,
         genero,
         area;
         
@@ -81,7 +82,7 @@ public class Exercicio2_While {
             }
 
             if (genero == 3 && area == 4 && idade < 30) {
-                nbFullStack30Menos++;
+                naoBinarioFullStack30Menos++;
             }
 
             // Pergunta se deseja continuar
@@ -95,8 +96,8 @@ public class Exercicio2_While {
             System.out.println("==========================================");
             System.out.println("Número de Devs Backend: " + devBackend);
             System.out.println("Mulheres (Cis + Trans) Frontend: " + mulheresFrontend);
-            System.out.println("Homens (Cis + Trans) Mobile > 40 anos: " + homensMobile40Mais);
-            System.out.println("Não Binários FullStack < 30 anos: " + nbFullStack30Menos);
+            System.out.println("Homens (Cis + Trans) Mobile 40+ anos: " + homensMobile40Mais);
+            System.out.println("Não Binários FullStack menores de 30 anos: " + naoBinarioFullStack30Menos);
             System.out.println("Total de participantes: " + totalPessoas);
 
             if (totalPessoas > 0) {
