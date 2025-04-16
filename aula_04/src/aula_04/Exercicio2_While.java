@@ -7,13 +7,14 @@ public class Exercicio2_While {
 	public static void main(String[] args) {
 		
 		Scanner leia = new Scanner(System.in);
-		int totalPessoas = 0;
-        int somaIdades = 0;
-
-        int devBackend = 0;
-        int mulheresFrontend = 0;
-        int homensMobile40Mais = 0;
-        int nbFullStack30Menos = 0;
+		int totalPessoas = 0, 
+		somaIdades = 0, 
+		devBackend = 0,
+        mulheresFrontend = 0,
+        homensMobile40Mais = 0,
+        nbFullStack30Menos = 0,
+        genero,
+        area;
         
 		String continuar = "S";
 
@@ -29,6 +30,7 @@ public class Exercicio2_While {
             System.out.println("------------------------------------------");
 
             // Gênero
+            
             System.out.println("\nIdentidade de Gênero:");
             System.out.println("==========================================");
             System.out.println("  1 – Mulher Cis");
@@ -38,8 +40,13 @@ public class Exercicio2_While {
             System.out.println("  5 – Homem Trans");
             System.out.println("  6 – Outros");
             System.out.println("==========================================");
+            do {
             System.out.print("Digite o número correspondente: ");
-            int genero = leia.nextInt();
+            genero = leia.nextInt();
+            if(genero < 1 || genero > 6) {
+            	System.out.println("Opção inválida.");
+            }
+            } while (genero < 1 || genero > 6);
             System.out.println("------------------------------------------");
             
             // Área de atuação
@@ -50,8 +57,13 @@ public class Exercicio2_While {
             System.out.println("  3 – Mobile");
             System.out.println("  4 – FullStack");
             System.out.println("==========================================");
+            do {
             System.out.print("Digite o número correspondente: ");
-            int area = leia.nextInt();
+            area = leia.nextInt();
+            if(area < 1 || area > 4) {
+            	System.out.println("Opção inválida.");
+            }
+            } while (area < 1 || area > 4);
             
             totalPessoas++;
             somaIdades += idade;
