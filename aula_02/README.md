@@ -1,4 +1,4 @@
-# Aula 02 - Aula 02 - Variáveis, Tipos e Operadores em Java 
+# Aula 02 - Variáveis, Tipos e Operadores em Java 
 
 Nesta aula foram abordados os fundamentos de variáveis, tipos de dados e operadores em Java, além de práticas de entrada/saída e boas práticas de nomeação
 
