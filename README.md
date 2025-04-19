@@ -52,3 +52,13 @@ Este repositório contém os resumos das primeiras quatro aulas de introdução 
 - Uso prático para percorrer listas, contar, repetir ações
 </br></br>
 ---
+</br>
+
+## Aula 05 - Vetores e Matrizes
+[Link para as anotações da Aula 05](https://github.com/renatangr/Generation_Aulas/tree/main/aula_05)
+- Introdução aos arrays (vetores) e matrizes (arrays multidimensionais)
+- Declaração, inicialização e acesso aos elementos
+- Diferença entre vetores e matrizes
+- Utilização de laços de repetição para manipulação de arrays
+- Exemplos práticos: somar valores, encontrar elementos, organizar dados
+- Exercícios propostos para fixação dos conceitos
