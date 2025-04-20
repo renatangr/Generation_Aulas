@@ -14,9 +14,10 @@ public class Exercicio2_Matrizes {
 		 * Em um vetor de números reais, armazene as médias de cada participante
 		 * e exiba as médias de cada um na tela.
 		 * */ 
+		
 		float verificarNota, somaNotas = 0, calcularMedia = 0;
-		float nota[][] = new float[2][4];
-		float media[][] = new float[1][2];
+		float nota[][] = new float[10][4];
+		float media[][] = new float[1][10];
 		
 		Scanner leia = new Scanner(System.in);
 		System.out.println("====================================");
