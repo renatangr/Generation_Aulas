@@ -19,7 +19,7 @@ public class Exercicio2_List {
 		Scanner leia = new Scanner(System.in);
 		int num; 
 		String resposta;
-		boolean continuar = true;
+		boolean continuar = true, perguntarNovamente = true;
 		
 		ArrayList<Integer> numeros = new ArrayList<Integer>(Arrays.asList(2, 5, 1, 3, 4, 9,	7, 8, 10, 6));
 		
@@ -33,12 +33,21 @@ public class Exercicio2_List {
 				System.out.printf("Número %d não encontrado!\n", num);
 			}
 			
-			System.out.print("\nDeseja continuar? S/N \n");
-			resposta = leia.next();
-			
-			if(resposta.equalsIgnoreCase("N")) {
-				continuar = false;
-			}
+			do {
+				System.out.print("\nDeseja continuar? S/N \n");
+				resposta = leia.next();
+				
+				if(resposta.equalsIgnoreCase("N")) {
+					continuar = false;
+					perguntarNovamente = false;
+				} else if(!resposta.equalsIgnoreCase("S")) {
+					System.out.println("Comando desconhecido. Tente novamente");
+					
+				} else {
+					perguntarNovamente = false;
+				}
+				
+			} while(perguntarNovamente);
 			
 		} while (continuar);
 		
