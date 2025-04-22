@@ -22,7 +22,7 @@ public class Exercicio2_Set {
 		
 		int num; 
 		String resposta;
-		boolean continuar = true;
+		boolean continuar = true, perguntarNovamente = true;
 		
 		Set<Integer> numeros = new HashSet<Integer>();
 		final int totalNumeros = 10;
@@ -46,12 +46,20 @@ public class Exercicio2_Set {
 				System.out.printf("\nNúmero %d não encontrado!\n", num);
 			}
 			
-			System.out.print("\nDeseja continuar? S/N \n");
-			resposta = leia.next();
-			
-			if(resposta.equalsIgnoreCase("N")) {
-				continuar = false;
-			}
+			do {
+				System.out.print("\nDeseja continuar? S/N \n");
+				resposta = leia.next();
+				
+				if(resposta.equalsIgnoreCase("N")) {
+					continuar = false;
+					perguntarNovamente = false;
+				} else if(!resposta.equalsIgnoreCase("S")) {
+					System.out.println("Comando desconhecido. Tente novamente");
+					
+				} else {
+					perguntarNovamente = false;
+				}
+			} while(perguntarNovamente);
 			
 		} while (continuar);
 		
