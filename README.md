@@ -62,3 +62,18 @@ Este repositório contém os resumos das primeiras quatro aulas de introdução 
 - Utilização de laços de repetição para manipulação de arrays
 - Exemplos práticos: somar valores, encontrar elementos, organizar dados
 - Exercícios propostos para fixação dos conceitos
+
+## Aula 06 - Collections
+[Link para as anotações da Aula 06](https://github.com/renatangr/Generation_Aulas/tree/main/aula_06)
+- Introdução a Collections do Java
+- Diferença entre arrays e collections
+- Principais interfaces: List, Set e Collection
+- Foco em:
+  - ArrayList: estrutura dinâmica, ordenada, permite elementos duplicados
+  - HashSet: estrutura não ordenada, não permite elementos duplicados
+- Métodos principais: add(), remove(), contains(), size(), entre outros
+- Uso de loops e Iterator para percorrer collections
+- Comparação de desempenho e usos recomendados
+- Exemplos práticos e exercícios para reforço dos conceitos
+
+
