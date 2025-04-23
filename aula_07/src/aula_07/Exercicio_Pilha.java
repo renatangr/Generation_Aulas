@@ -44,7 +44,7 @@ public class Exercicio_Pilha {
             switch (opcao) {
             case 1:
             	System.out.print("\nDigite o nome do livro: ");
-				nome = leia.nextLine();
+				nome = leia.next();
 				pilhaLivros.push(nome);
 				System.out.println("Livro \"" + nome + "\" adicionado à pilha.");
             	break;
