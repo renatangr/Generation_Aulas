@@ -76,4 +76,17 @@ Este repositório contém os resumos das primeiras quatro aulas de introdução 
 - Comparação de desempenho e usos recomendados
 - Exemplos práticos e exercícios para reforço dos conceitos
 
-
+## Aula 07 - Estrutura de Dados Pilha e Fila
+[]()
+- Conceito de estrutura de dados: formas organizadas de armazenar e manipular informações
+- Tipos de estruturas:
+  - Lineares: organizam os dados em sequência (ex: Array, LinkedList, Stack, Queue)
+  - Não lineares: organizam os dados em hierarquias ou redes (ex: Tree, Graph)
+- Diferença entre estruturas estáticas e dinâmicas
+  - Estática: tamanho fixo (ex: Array)
+  - Dinâmica: tamanho flexível (ex: LinkedList, Stack, Queue)
+- #### Estrutura de Fila (Queue)
+- Interface Queue da Collection Framework
+- Implementação com LinkedList para gerenciar a ordem dos elementos e seus principais métodos
+- #### Estrutura de Pilha (Stack)
+- Classe Stack da Collection Framework, implementação da Stack e seus principais métodos
