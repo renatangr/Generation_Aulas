@@ -129,3 +129,23 @@ switch (dia) {
 - `default` → executado se nenhum `case` corresponder
 - `return` → finaliza a execução de um método ou do programa
 - `break` → finaliza a execução de um laço (`for`, `while`, `switch` etc.)
+
+## Switch Lambda
+
+O **Switch Lambda** é uma forma moderna e mais enxuta de escrever estruturas `switch-case` no Java.
+
+Exemplo:
+
+```java
+String resultado = switch (dia) {
+    case 1 -> "Segunda";
+    case 2 -> "Terça";
+    case 3 -> "Quarta";
+    default -> "Outro dia";
+};
+```
+
+- Dispensa a necessidade de `break`.
+- Permite atribuir o resultado diretamente a uma variável.
+
+---
