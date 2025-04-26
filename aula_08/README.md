@@ -2,7 +2,8 @@
 
 ## 👩🏻‍💻 Projetos desenvolvidos
 [CalculadoraMetodos.java](https://github.com/renatangr/Generation_Aulas/blob/main/aula_08/src/aula_08/CalculadoraMetodos.java)
-    > Este arquivo define uma classe chamada CalculadoraMetodos que implementa métodos básicos de uma calculadora: soma, subtração, multiplicação e divisão. Cada operação é encapsulada em um método separado que recebe dois números como parâmetros e retorna o resultado da operação. É uma introdução prática à criação e uso de métodos em Java, reforçando a importância da modularização do código para reutilização e organização.
+
+> Este arquivo define uma classe chamada CalculadoraMetodos que implementa métodos básicos de uma calculadora: soma, subtração, multiplicação e divisão. Cada operação é encapsulada em um método separado que recebe dois números como parâmetros e retorna o resultado da operação. É uma introdução prática à criação e uso de métodos em Java, reforçando a importância da modularização do código para reutilização e organização.
 
 ## O que é um Método?
 
