@@ -62,6 +62,9 @@ Este repositório contém os resumos das primeiras quatro aulas de introdução 
 - Utilização de laços de repetição para manipulação de arrays
 - Exemplos práticos: somar valores, encontrar elementos, organizar dados
 - Exercícios propostos para fixação dos conceitos
+</br></br>
+---
+</br>
 
 ## Aula 06 - Collections
 [Link para as anotações da Aula 06](https://github.com/renatangr/Generation_Aulas/tree/main/aula_06)
@@ -75,9 +78,12 @@ Este repositório contém os resumos das primeiras quatro aulas de introdução 
 - Uso de loops e Iterator para percorrer collections
 - Comparação de desempenho e usos recomendados
 - Exemplos práticos e exercícios para reforço dos conceitos
+</br></br>
+---
+</br>
 
 ## Aula 07 - Estrutura de Dados Pilha e Fila
-[]()
+[Link para as anotações da Aula 07](https://github.com/renatangr/Generation_Aulas/tree/main/aula_07)
 - Conceito de estrutura de dados: formas organizadas de armazenar e manipular informações
 - Tipos de estruturas:
   - Lineares: organizam os dados em sequência (ex: Array, LinkedList, Stack, Queue)
@@ -90,3 +96,37 @@ Este repositório contém os resumos das primeiras quatro aulas de introdução 
 - Implementação com LinkedList para gerenciar a ordem dos elementos e seus principais métodos
 - #### Estrutura de Pilha (Stack)
 - Classe Stack da Collection Framework, implementação da Stack e seus principais métodos
+</br></br>
+---
+</br>
+
+## Aula 08 - Métodos
+[Link para as anotações da Aula 08](https://github.com/renatangr/Generation_Aulas/tree/main/aula_08)
+- Definição de métodos: blocos de código reutilizáveis para executar ações específicas
+- Estrutura de um método: tipo de retorno, nome, parâmetros e corpo
+- Diferença entre métodos void (sem retorno) e métodos com tipo de retorno (int, String, boolean, etc.)
+- Palavra-chave return e sua utilização
+- Boas práticas de nomeação e organização de métodos
+- Exemplos práticos: criação de métodos para cálculos, validações e manipulação de dados
+
+</br></br>
+---
+</br>
+
+## Aula 09 - Programação Orientada a Objetos
+[Projeto de Conta Bancária](https://github.com/renatangr/conta_bancaria)
+- #### Conceitos fundamentais da POO:
+  - Classe: molde que define os atributos e comportamentos dos objetos
+  - Objeto: instância de uma classe
+  - Atributos: características dos objetos (variáveis)
+  - Métodos: comportamentos dos objetos (funções)
+- #### Princípios básicos da POO:
+  - Encapsulamento: proteger os dados e fornecer acesso controlado
+  - Herança: reutilizar atributos e métodos de uma classe "pai"
+  - Abstração: focar no que é essencial, escondendo detalhes de implementação
+- Exemplos práticos: criação de classes simples, objetos, utilização de métodos e atributos
+- Aplicação dos conceitos em pequenos projetos
+
+</br></br>
+---
+</br>
